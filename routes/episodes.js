@@ -79,24 +79,24 @@ var episodes = [
 
 exports.all = function(req, res){
     var merged = [];
-    res.send(merged.concat.apply(merged, episodes));
+    res.jsonp(merged.concat.apply(merged, episodes));
 };
 
 
 exports.season = function(req, res){
     var season = episodes[req.params.season - 1];
-    res.send(season || 404);
+    res.jsonp(season || []);
 };
 
 exports.episode = function(req, res){
     var season = episodes[req.params.season - 1];
-    res.send(season ? season[req.params.episode - 1] : 404);
+    res.jsonp(season ? season[req.params.episode - 1] : {});
 };
 
 exports.until = function(req, res){
     var season = episodes[req.params.season - 1];
     var episode = season ? season[req.params.episode - 1] : {};
-    res.send(episode.time ? [new Date(episode.time) - new Date()] : 404);
+    res.jsonp(episode.time ? [new Date(episode.time) - new Date()] : {});
 };
 
 
@@ -107,7 +107,7 @@ exports.next = function(req, res){
         return new Date(ep.time) > now;
     })[0];
 
-    res.send(episode ? episode : 404);
+    res.jsonp(episode ? episode : {});
 };
 
 
@@ -118,5 +118,5 @@ exports.untilNext = function(req, res){
         return new Date(ep.time) > now;
     })[0];
 
-    res.send(episode ? [new Date(episode.time) - now] : 404);
+    res.jsonp(episode ? [new Date(episode.time) - now] : {});
 };
