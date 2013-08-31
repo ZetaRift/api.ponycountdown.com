@@ -1,5 +1,33 @@
 var episodes = [
-    [],
+    [
+        {"name": "Friendship is Magic - Part 1", "time": "2010-10-10T12:00:00.000Z", "season": 1, "episode": 1, "duration": 20},
+        {"name": "Friendship is Magic - Part 2", "time": "2010-10-22T12:00:00.000Z", "season": 1, "episode": 2, "duration": 20},
+        {"name": "The Ticket Master", "time": "2010-10-29T12:00:00.000Z", "season": 1, "episode": 3, "duration": 20},
+        {"name": "Applebuck Season", "time": "2010-11-05T12:00:00.000Z", "season": 1, "episode": 4, "duration": 20},
+        {"name": "Griffon the Brush-Off", "time": "2010-11-12T12:00:00.000Z", "season": 1, "episode": 5, "duration": 20},
+        {"name": "Boast Busters", "time": "2010-11-19T12:00:00.000Z", "season": 1, "episode": 6, "duration": 20},
+        {"name": "Dragonshy", "time": "2010-11-26T12:00:00.000Z", "season": 1, "episode": 7, "duration": 20},
+        {"name": "Look Before You Sleep", "time": "2010-12-03T12:00:00.000Z", "season": 1, "episode": 8, "duration": 20},
+        {"name": "Bridle Gossip", "time": "2010-12-10T12:00:00.000Z", "season": 1, "episode": 9, "duration": 20},
+        {"name": "Swarm of the Century", "time": "2010-12-17T12:00:00.000Z", "season": 1, "episode": 10, "duration": 20},
+        {"name": "Winter Wrap Up", "time": "2010-12-24T12:00:00.000Z", "season": 1, "episode": 11, "duration": 20},
+        {"name": "Call of the Cutie", "time": "2010-01-07T12:00:00.000Z", "season": 1, "episode": 12, "duration": 20},
+        {"name": "Fall Weather Friends", "time": "2010-01-28T12:00:00.000Z", "season": 1, "episode": 13, "duration": 20},
+        {"name": "Suited for Success", "time": "2010-02-04T12:00:00.000Z", "season": 1, "episode": 14, "duration": 20},
+        {"name": "Feeling Pinkie Keen", "time": "2010-02-11T12:00:00.000Z", "season": 1, "episode": 15, "duration": 20},
+        {"name": "Sonic Rainboom", "time": "2010-02-18T12:00:00.000Z", "season": 1, "episode": 16, "duration": 20},
+        {"name": "Stare Master", "time": "2010-02-25T12:00:00.000Z", "season": 1, "episode": 17, "duration": 20},
+        {"name": "The Show Stoppers", "time": "2010-03-04T12:00:00.000Z", "season": 1, "episode": 18, "duration": 20},
+        {"name": "A Dog and Pony Show", "time": "2010-03-11T12:00:00.000Z", "season": 1, "episode": 19, "duration": 20},
+        {"name": "Green Isn't Your Color", "time": "2010-03-18T12:00:00.000Z", "season": 1, "episode": 20, "duration": 20},
+        {"name": "Over a Barrel", "time": "2010-03-25T12:00:00.000Z", "season": 1, "episode": 21, "duration": 20},
+        {"name": "A Bird in the Hoof", "time": "2010-04-08T12:00:00.000Z", "season": 1, "episode": 22, "duration": 20},
+        {"name": "The Cutie Mark Chronicles", "time": "2010-04-15T12:00:00.000Z", "season": 1, "episode": 23, "duration": 20},
+        {"name": "Owl's Well that Ends Well", "time": "2010-04-22T12:00:00.000Z", "season": 1, "episode": 24, "duration": 20},
+        {"name": "Party of One", "time": "2010-04-29T12:00:00.000Z", "season": 1, "episode": 25, "duration": 20},
+        {"name": "The Best Night Ever", "time": "2010-05-06T12:00:00.000Z", "season": 1, "episode": 26, "duration": 20}
+
+    ],
     [
         {"name": "The Return of Harmony - Part 1", "time": "2011-09-17T12:00:00.000Z", "season": 2, "episode": 1, "duration": 20},
         {"name": "The Return of Harmony - Part 2", "time": "2011-09-24T13:00:00.000Z", "season": 2, "episode": 2, "duration": 20},
@@ -57,22 +85,38 @@ exports.all = function(req, res){
 
 exports.season = function(req, res){
     var season = episodes[req.params.season - 1];
-    res.send(season || []);
+    res.send(season || 404);
 };
 
 exports.episode = function(req, res){
     var season = episodes[req.params.season - 1];
-    res.send(season ? season[req.params.episode - 1] : {});
+    res.send(season ? season[req.params.episode - 1] : 404);
 };
 
 exports.until = function(req, res){
     var season = episodes[req.params.season - 1];
     var episode = season ? season[req.params.episode - 1] : {};
+    res.send(episode.time ? [new Date(episode.time) - new Date()] : 404);
+};
 
-    if(episode.time){
-        res.send([new Date(episode.time) - new Date()]);
-    }else{
-        res.send(404);
-    }
 
+exports.next = function(req, res){
+    var merged = [];
+    var now = new Date();
+    var episode = merged.concat.apply(merged, episodes).filter(function(ep){
+        return new Date(ep.time) > now;
+    })[0];
+
+    res.send(episode ? episode : 404);
+};
+
+
+exports.untilNext = function(req, res){
+    var merged = [];
+    var now = new Date();
+    var episode = merged.concat.apply(merged, episodes).filter(function(ep){
+        return new Date(ep.time) > now;
+    })[0];
+
+    res.send(episode ? [new Date(episode.time) - now] : 404);
 };

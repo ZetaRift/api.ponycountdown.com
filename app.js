@@ -27,10 +27,13 @@ if ('development' == app.get('env')) {
 }
 
 //app.get('/', routes.index);
+app.get('/until/:season/:episode', episodes.until);
+app.get('/until/next', episodes.untilNext);
+app.get('/next', episodes.next);
 app.get('/', episodes.all);
 app.get('/:season', episodes.season);
 app.get('/:season/:episode', episodes.episode);
-app.get('/until/:season/:episode', episodes.until);
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
