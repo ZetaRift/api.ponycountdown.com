@@ -72,7 +72,7 @@ var episodes = [
         {"name": "Magical Mystery Cure", "time": "2013-02-16T15:30:00.000Z", "season": 3, "episode": 13, "duration": 20}
     ],
     [
-        {"name": "", "time": "2013-11-23T23:59:59.000Z", "season": 4, "episode": 1, "duration": 20}
+        {"name": "Season 4 Premiere", "time": "2013-11-23T15:00:59.000Z", "season": 4, "episode": 1, "duration": 20}
     ]
 ];
 
