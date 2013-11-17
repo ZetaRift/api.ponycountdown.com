@@ -72,7 +72,12 @@ var episodes = [
         {"name": "Magical Mystery Cure", "time": "2013-02-16T15:30:00.000Z", "season": 3, "episode": 13, "duration": 20}
     ],
     [
-        {"name": "Season 4 Premiere", "time": "2013-11-23T15:00:59.000Z", "season": 4, "episode": 1, "duration": 20}
+        {"name": "Princess Twilight Part 1", "time": "2013-11-23T15:00:00.000Z", "season": 4, "episode": 1, "duration": 20},
+        {"name": "Princess Twilight Part 2", "time": "2013-11-23T15:30:00.000Z", "season": 4, "episode": 2, "duration": 20},
+        {"name": "Castle-Mania", "time": "2013-11-30T15:00:00.000Z", "season": 4, "episode": 3, "duration": 20},
+        {"name": "Daring Don't", "time": "2013-12-07T15:00:00.000Z", "season": 4, "episode": 4, "duration": 20},
+        {"name": "Flight to the Finish", "time": "2013-12-14T15:00:00.000Z", "season": 4, "episode": 5, "duration": 20},
+        {"name": "Power Ponies", "time": "2013-12-21T15:00:00.000Z", "season": 4, "episode": 6, "duration": 20}
     ]
 ];
 
@@ -90,13 +95,13 @@ exports.season = function(req, res){
 
 exports.episode = function(req, res){
     var season = episodes[req.params.season - 1];
-    res.jsonp(season ? season[req.params.episode - 1] : {});
+    res.jsonp(season ? season[req.params.episode - 1] : []);
 };
 
 exports.until = function(req, res){
     var season = episodes[req.params.season - 1];
     var episode = season ? season[req.params.episode - 1] : {};
-    res.jsonp(episode.time ? [new Date(episode.time) - new Date()] : {});
+    res.jsonp((episode && episode.time) ? [new Date(episode.time) - new Date()] : []);
 };
 
 
@@ -107,7 +112,7 @@ exports.next = function(req, res){
         return new Date(ep.time) > now;
     })[0];
 
-    res.jsonp(episode ? episode : {});
+    res.jsonp(episode ? episode : []);
 };
 
 
@@ -118,5 +123,5 @@ exports.untilNext = function(req, res){
         return new Date(ep.time) > now;
     })[0];
 
-    res.jsonp(episode ? [new Date(episode.time) - now] : {});
+    res.jsonp(episode ? [new Date(episode.time) - now] : []);
 };
