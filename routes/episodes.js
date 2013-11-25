@@ -74,10 +74,10 @@ var episodes = [
     [
         {"name": "Princess Twilight Part 1", "time": "2013-11-23T15:00:00.000Z", "season": 4, "episode": 1, "duration": 20},
         {"name": "Princess Twilight Part 2", "time": "2013-11-23T15:30:00.000Z", "season": 4, "episode": 2, "duration": 20},
-        {"name": "Castle-Mania", "time": "2013-11-30T15:00:00.000Z", "season": 4, "episode": 3, "duration": 20},
-        {"name": "Daring Don't", "time": "2013-12-07T15:00:00.000Z", "season": 4, "episode": 4, "duration": 20},
-        {"name": "Flight to the Finish", "time": "2013-12-14T15:00:00.000Z", "season": 4, "episode": 5, "duration": 20},
-        {"name": "Power Ponies", "time": "2013-12-21T15:00:00.000Z", "season": 4, "episode": 6, "duration": 20}
+        {"name": "Castle-Mania", "time": "2013-11-30T15:30:00.000Z", "season": 4, "episode": 3, "duration": 20},
+        {"name": "Daring Don't", "time": "2013-12-07T15:30:00.000Z", "season": 4, "episode": 4, "duration": 20},
+        {"name": "Flight to the Finish", "time": "2013-12-14T15:30:00.000Z", "season": 4, "episode": 5, "duration": 20},
+        {"name": "Power Ponies", "time": "2013-12-21T15:30:00.000Z", "season": 4, "episode": 6, "duration": 20}
     ]
 ];
 
