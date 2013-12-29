@@ -79,7 +79,7 @@ var episodes = [
         {"name": "Flight to the Finish", "time": "2013-12-14T15:30:00.000Z", "season": 4, "episode": 5, "duration": 22},
         {"name": "Power Ponies", "time": "2013-12-21T15:30:00.000Z", "season": 4, "episode": 6, "duration": 22},
         {"name": "Bats!", "time": "2013-12-28T15:30:00.000Z", "season": 4, "episode": 7, "duration": 22},
-        {"name": "Rarity Takes Manehattan", "time": "2014-01-04T15:30:00.000Z", "season": 8, "episode": 6, "duration": 22},
+        {"name": "Rarity Takes Manehattan", "time": "2014-01-04T15:30:00.000Z", "season": 4, "episode": 8, "duration": 22},
         {"name": "Pinkie Apple Pie", "time": "2014-01-11T15:30:00.000Z", "season": 4, "episode": 9, "duration": 22},
         {"name": "Rainbow Falls", "time": "2014-01-18T15:30:00.000Z", "season": 4, "episode": 10, "duration": 22}
     ]
