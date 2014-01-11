@@ -81,7 +81,13 @@ var episodes = [
         {"name": "Bats!", "time": "2013-12-28T15:30:00.000Z", "duration": 22},
         {"name": "Rarity Takes Manehattan", "time": "2014-01-04T15:30:00.000Z", "duration": 22},
         {"name": "Pinkie Apple Pie", "time": "2014-01-11T15:30:00.000Z", "duration": 22},
-        {"name": "Rainbow Falls", "time": "2014-01-18T15:30:00.000Z", "duration": 22}
+        {"name": "Rainbow Falls", "time": "2014-01-18T15:30:00.000Z", "duration": 22},
+        {"name": "Three's a Crowd", "time": "2014-01-25T15:30:00.000Z", "duration": 22},
+        {"name": "Pinkie Pride", "time": "2014-02-01T15:30:00.000Z", "duration": 22},
+        {"name": "Simple Ways", "time": "2014-02-08T15:30:00.000Z", "duration": 22},
+        {"name": "Filli Vanilli", "time": "2014-02-15T15:30:00.000Z", "duration": 22},
+        {"name": "Twilight Time", "time": "2014-02-22T15:30:00.000Z", "duration": 22},
+        {"name": "It Ain't Easy Being Breezies", "time": "2014-03-01T15:30:00.000Z", "duration": 22}
     ]
 ];
 
