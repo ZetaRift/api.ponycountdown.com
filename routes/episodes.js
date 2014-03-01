@@ -87,7 +87,11 @@ var episodes = [
         {"name": "Simple Ways", "time": "2014-02-08T15:30:00.000Z", "duration": 22},
         {"name": "Filli Vanilli", "time": "2014-02-15T15:30:00.000Z", "duration": 22},
         {"name": "Twilight Time", "time": "2014-02-22T15:30:00.000Z", "duration": 22},
-        {"name": "It Ain't Easy Being Breezies", "time": "2014-03-01T15:30:00.000Z", "duration": 22}
+        {"name": "It Ain't Easy Being Breezies", "time": "2014-03-01T15:30:00.000Z", "duration": 22},
+        {"name": "Somepony to Watch Over Me", "time": "2014-03-08T15:30:00.000Z", "duration": 22},
+        {"name": "Maud Pie", "time": "2014-03-15T15:30:00.000Z", "duration": 22},
+        {"name": "For Whom the Sweetie Belle Toils", "time": "2014-03-22T15:30:00.000Z", "duration": 22},
+        {"name": "Leap of Faith", "time": "2014-03-29T15:30:00.000Z", "duration": 22}
     ]
 ];
 
