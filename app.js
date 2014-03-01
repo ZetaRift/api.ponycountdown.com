@@ -1,10 +1,5 @@
-
-/**
- * Module dependencies.
- */
-
 var express = require('express')
-  , episodes = require('./routes/episodes')
+  , episodes = require('episodes')
   , http = require('http')
   , path = require('path');
 
@@ -26,7 +21,6 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-//app.get('/', routes.index);
 app.get('/until/:season/:episode', episodes.until);
 app.get('/until/next', episodes.untilNext);
 app.get('/next', episodes.next);
