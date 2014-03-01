@@ -1,5 +1,5 @@
 var express = require('express')
-  , episodes = require('episodes')
+  , episodes = require('./episodes')
   , http = require('http')
   , path = require('path');
 
