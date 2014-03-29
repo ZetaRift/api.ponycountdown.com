@@ -89,9 +89,15 @@ var episodes = [
         {"name": "Twilight Time", "time": "2014-02-22T15:30:00.000Z", "duration": 22},
         {"name": "It Ain't Easy Being Breezies", "time": "2014-03-01T15:30:00.000Z", "duration": 22},
         {"name": "Somepony to Watch Over Me", "time": "2014-03-08T15:30:00.000Z", "duration": 22},
-        {"name": "Maud Pie", "time": "2014-03-15T15:30:00.000Z", "duration": 22},
-        {"name": "For Whom the Sweetie Belle Toils", "time": "2014-03-22T15:30:00.000Z", "duration": 22},
-        {"name": "Leap of Faith", "time": "2014-03-29T15:30:00.000Z", "duration": 22}
+        {"name": "Maud Pie", "time": "2014-03-15T14:30:00.000Z", "duration": 22},
+        {"name": "For Whom the Sweetie Belle Toils", "time": "2014-03-22T14:30:00.000Z", "duration": 22},
+        {"name": "Leap of Faith", "time": "2014-03-29T14:30:00.000Z", "duration": 22},
+        {"name": "Testing, Testing, 1, 2, 3", "time": "2014-04-05T14:30:00.000Z", "duration": 22},
+        {"name": "Trade Ya", "time": "2014-04-19T14:30:00.000Z", "duration": 22},
+        {"name": "Inspiration Manifestation", "time": "2014-04-26T14:30:00.000Z", "duration": 22},
+        {"name": "Equestria Games", "time": "2014-05-03T14:30:00.000Z", "duration": 22},
+        {"name": "", "time": "2014-05-10T14:30:00.000Z", "duration": 22},
+        {"name": "", "time": "2014-05-17T14:30:00.000Z", "duration": 22}
     ]
 ];
 
