@@ -97,7 +97,7 @@ var episodes = [
         {"name": "Inspiration Manifestation", "time": "2014-04-26T14:30:00.000Z", "duration": 22},
         {"name": "Equestria Games", "time": "2014-05-03T14:30:00.000Z", "duration": 22},
         {"name": "Twilight's Kingdom - Part 1", "time": "2014-05-10T14:30:00.000Z", "duration": 22},
-        {"name": "Twilight's Kingdom - Part 2", "time": "2014-05-17T14:30:00.000Z", "duration": 22}
+        {"name": "Twilight's Kingdom - Part 2", "time": "2014-05-10T15:00:00.000Z", "duration": 22}
     ]
 ];
 
