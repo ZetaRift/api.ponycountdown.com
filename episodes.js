@@ -72,8 +72,8 @@ var episodes = [
         {"name": "Magical Mystery Cure", "time": "2013-02-16T15:30:00.000Z"}
     ],
     [
-        {"name": "Princess Twilight Part 1", "time": "2013-11-23T15:00:00.000Z"},
-        {"name": "Princess Twilight Part 2", "time": "2013-11-23T15:30:00.000Z"},
+        {"name": "Princess Twilight - Part 1", "time": "2013-11-23T15:00:00.000Z"},
+        {"name": "Princess Twilight - Part 2", "time": "2013-11-23T15:30:00.000Z"},
         {"name": "Castle Mane-ia", "time": "2013-11-30T15:30:00.000Z"},
         {"name": "Daring Don't", "time": "2013-12-07T15:30:00.000Z"},
         {"name": "Flight to the Finish", "time": "2013-12-14T15:30:00.000Z"},
@@ -98,6 +98,10 @@ var episodes = [
         {"name": "Equestria Games", "time": "2014-05-03T14:30:00.000Z"},
         {"name": "Twilight's Kingdom - Part 1", "time": "2014-05-10T14:30:00.000Z"},
         {"name": "Twilight's Kingdom - Part 2", "time": "2014-05-10T15:00:00.000Z"}
+    ],
+    [
+        {"name": "Cutie Markless - Part 1", "time": "2015-04-04T15:00:00.000Z"},
+        {"name": "Cutie Markless - Part 2", "time": "2015-04-04T15:30:00.000Z"}
     ]
 ];
 
