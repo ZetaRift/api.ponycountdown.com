@@ -101,7 +101,11 @@ var episodes = [
     ],
     [
         {"name": "Cutie Markless - Part 1", "time": "2015-04-04T15:00:00.000Z"},
-        {"name": "Cutie Markless - Part 2", "time": "2015-04-04T15:30:00.000Z"}
+        {"name": "Cutie Markless - Part 2", "time": "2015-04-04T15:30:00.000Z"},
+        {"name": "Castle Sweet Castle", "time": "2015-04-11T15:30:00.000Z"},
+        {"name": "Bloom and Gloom", "time": "2015-04-18T15:30:00.000Z"},
+        {"name": "Tanks for the Memories", "time": "2015-04-25T15:30:00.000Z"},
+        {"name": "Appleoosa's Most Wanted", "time": "2015-05-02T15:30:00.000Z"}
     ]
 ];
 

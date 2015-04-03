@@ -57,7 +57,7 @@ Returns the next episode to air as a JSON object. Returns an empty array if no u
     {"name": "Princess Twilight Part 1", "time": "2013-11-23T15:00:00.000Z", "season": 4, "episode": 1, "duration": 20}
 
 
-## GET /until/:season/:episode
+## [DEPRECATED] GET /until/:season/:episode
 Returns the time until the given episode in milliseconds, wrapped in a JSON array. Returns an empty array if the episode was not found.
 
 #### example request
@@ -69,7 +69,7 @@ Returns the time until the given episode in milliseconds, wrapped in a JSON arra
     ]
 
 
-## GET /until/next
+## [DEPRECATED] GET /until/next
 Returns the time until the next episode to air in milliseconds, wrapped in a JSON array. Returns an empty array if no upcoming episode was found.
 
 #### example request
