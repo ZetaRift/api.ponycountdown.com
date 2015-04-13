@@ -7,6 +7,7 @@ var app = express();
 app.get('/until/:season/:episode', episodes.until);
 app.get('/until/next', episodes.untilNext);
 app.get('/next', episodes.next);
+app.get('/last', episodes.last);
 app.get('/', episodes.all);
 app.get('/:season', episodes.season);
 app.get('/:season/:episode', episodes.episode);
