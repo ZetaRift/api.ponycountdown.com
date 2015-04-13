@@ -148,6 +148,15 @@ exports.next = function(req, res){
     res.jsonp(episode ? episode : []);
 };
 
+exports.last = function(req, res){
+    var merged = [];
+    var now = new Date();
+    var episode = merged.concat.apply(merged, episodes).filter(function(ep){
+        return new Date(ep.time) < now;
+    }).slice(-1)[0];
+    res.jsonp(episode ? episode : []);
+};
+
 exports.untilNext = function(req, res){
     var merged = [];
     var now = new Date();
