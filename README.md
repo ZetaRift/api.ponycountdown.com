@@ -57,6 +57,16 @@ Returns the next episode to air as a JSON object. Returns an empty array if no u
     {"name": "Princess Twilight Part 1", "time": "2013-11-23T15:00:00.000Z", "season": 4, "episode": 1, "duration": 20}
 
 
+## GET /last
+Returns the next episode to air as a JSON object. Returns an empty array if no upcoming episode was found :(
+
+#### example request
+    GET http://api.ponycountdown.com/last
+
+#### example response
+    {"name": "Magical Mystery Cure", "time": "2013-02-16T15:30:00.000Z", "season": 3, "episode": 13, "duration": 20}
+
+
 ## [DEPRECATED] GET /until/:season/:episode
 Returns the time until the given episode in milliseconds, wrapped in a JSON array. Returns an empty array if the episode was not found.
 
