@@ -107,7 +107,10 @@ var episodes = [
         {"name": "Tanks for the Memories", "time": "2015-04-25T15:30:00.000Z"},
         {"name": "Appleoosa's Most Wanted", "time": "2015-05-02T15:30:00.000Z"},
         {"name": "Make New Friends but Keep Discord", "time": "2015-05-16T15:30:00.000Z"},
-        {"name": "The Lost Treasure of Griffonstone", "time": "2015-05-23T15:30:00.000Z"}
+        {"name": "The Lost Treasure of Griffonstone", "time": "2015-05-23T15:30:00.000Z"},
+        {"name": "Slice of Life", "time": "2015-06-13T15:30:00.000Z"},
+        {"name": "Princess Spike", "time": "2015-06-20T15:30:00.000Z"},
+        {"name": "Party Pooped", "time": "2015-06-27T15:30:00.000Z"}
     ]
 ];
 
