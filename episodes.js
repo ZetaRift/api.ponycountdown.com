@@ -26,7 +26,6 @@ var episodes = [
         {"name": "Owl's Well that Ends Well", "time": "2010-04-22T12:00:00.000Z"},
         {"name": "Party of One", "time": "2010-04-29T12:00:00.000Z"},
         {"name": "The Best Night Ever", "time": "2010-05-06T12:00:00.000Z"}
-
     ],
     [
         {"name": "The Return of Harmony - Part 1", "time": "2011-09-17T12:00:00.000Z"},
@@ -110,7 +109,8 @@ var episodes = [
         {"name": "The Lost Treasure of Griffonstone", "time": "2015-05-23T15:30:00.000Z"},
         {"name": "Slice of Life", "time": "2015-06-13T15:30:00.000Z"},
         {"name": "Princess Spike", "time": "2015-06-20T15:30:00.000Z"},
-        {"name": "Party Pooped", "time": "2015-06-27T15:30:00.000Z"}
+        {"name": "Party Pooped", "time": "2015-06-27T15:30:00.000Z"},
+        {"name": "Amending Fences", "time": "2015-07-04T15:30:00.000Z"}
     ]
 ];
 
