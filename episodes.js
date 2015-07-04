@@ -110,7 +110,8 @@ var episodes = [
         {"name": "Slice of Life", "time": "2015-06-13T15:30:00.000Z"},
         {"name": "Princess Spike", "time": "2015-06-20T15:30:00.000Z"},
         {"name": "Party Pooped", "time": "2015-06-27T15:30:00.000Z"},
-        {"name": "Amending Fences", "time": "2015-07-04T15:30:00.000Z"}
+        {"name": "Amending Fences", "time": "2015-07-04T15:30:00.000Z"},
+        {"name": "Do Princesses Dream of Magic Sheep?", "time": "2015-07-11T15:30:00.000Z"}
     ]
 ];
 
