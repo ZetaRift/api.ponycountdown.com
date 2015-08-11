@@ -112,7 +112,8 @@ var episodes = [
         {"name": "Party Pooped", "time": "2015-06-27T15:30:00.000Z"},
         {"name": "Amending Fences", "time": "2015-07-04T15:30:00.000Z"},
         {"name": "Do Princesses Dream of Magic Sheep?", "time": "2015-07-11T15:30:00.000Z"},
-        {"name": "Canterlot Boutique", "time": "2015-09-12T15:30:00.000Z"}
+        {"name": "Canterlot Boutique", "time": "2015-09-12T15:30:00.000Z"},
+        {"name": "Rarity Investigates!", "time": "2015-09-19T15:30:00.000Z"}
     ]
 ];
 
