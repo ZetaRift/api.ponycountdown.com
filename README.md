@@ -1,5 +1,8 @@
 # Ponycountdown API
 
+Recommended usage is to request and store the full list of episodes, and periodically check for changes.
+The /until endpoints are now deprecated, these will be removed soon to allow better caching.
+
 ###Format
 Responses are in JSON format, unless a ?callback parameter is supplied, which will provide a JSONP response.
 
@@ -88,4 +91,19 @@ Returns the time until the next episode to air in milliseconds, wrapped in a JSO
 #### example response
     [
       529729519
+    ]
+    
+## GET /movies
+Returns a full list of all movies as a JSON array.
+
+The "universe" field indicates the universe the movie takes place in. Current values are "equestria-girls" and "friendship-is-magic".
+
+#### example request
+    GET http://api.ponycountdown.com/movies
+
+#### example response
+    [
+        {"name": "My Little Pony: Equestria Girls", "time": "2013-06-16T00:00:00.000Z", "universe": "equestria-girls"},
+        {"name": "My Little Pony: Equestria Girls – Rainbow Rocks", "time": "2014-09-27T00:00:00.000Z", "universe": "equestria-girls"},
+        ...
     ]
