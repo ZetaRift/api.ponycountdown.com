@@ -114,7 +114,11 @@ var episodes = [
         {"name": "Do Princesses Dream of Magic Sheep?", "time": "2015-07-11T15:30:00.000Z"},
         {"name": "Canterlot Boutique", "time": "2015-09-12T15:30:00.000Z"},
         {"name": "Rarity Investigates!", "time": "2015-09-19T15:30:00.000Z"},
-        {"name": "Made in Manehattan", "time": "2015-09-26T15:30:00.000Z"}
+        {"name": "Made in Manehattan", "time": "2015-09-26T15:30:00.000Z"},
+        {"name": "Brotherhooves Social", "time": "2015-10-03T15:30:00.000Z"},
+        {"name": "Crusaders of the Lost Mark", "time": "2015-10-10T15:30:00.000Z"},
+        {"name": "The One Where Pinkie Pie Knows", "time": "2015-10-17T15:30:00.000Z"},
+        {"name": "Hearthbreakers", "time": "2015-10-24T15:30:00.000Z"}
     ]
 ];
 
