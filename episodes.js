@@ -117,15 +117,20 @@ var episodes = [
         {"name": "Made in Manehattan", "time": "2015-09-26T15:30:00.000Z"},
         {"name": "Brotherhooves Social", "time": "2015-10-03T15:30:00.000Z"},
         {"name": "Crusaders of the Lost Mark", "time": "2015-10-10T15:30:00.000Z"},
-        {"name": "The One Where Pinkie Pie Knows", "time": "2015-10-17T15:30:00.000Z"},
-        {"name": "Hearthbreakers", "time": "2015-10-24T15:30:00.000Z"}
+        {"name": "The One Where Pinkie Pie Knows", "time": "2015-10-17T15:30:00.000Z", "episode": 20},
+        {"name": "Hearthbreakers", "time": "2015-10-24T15:30:00.000Z", "episode": 19},
+        {"name": "Scare Master", "time": "2015-10-31T15:30:00.000Z"},
+        {"name": "What About Discord", "time": "2015-11-07T15:30:00.000Z"},
+        {"name": "The Hooffields and McColts", "time": "2015-11-14T15:30:00.000Z"}
     ]
 ];
 
 episodes.forEach(function(season, si){
     season.forEach(function(episode, ei){
         episode.season = si + 1;
-        episode.episode = ei + 1;
+        if(!episode.episode) {
+            episode.episode = ei + 1;
+        }
         if(!episode.duration){
             episode.duration = 22;
         }
