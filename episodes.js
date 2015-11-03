@@ -120,8 +120,8 @@ var episodes = [
         {"name": "The One Where Pinkie Pie Knows", "time": "2015-10-17T15:30:00.000Z", "episode": 20},
         {"name": "Hearthbreakers", "time": "2015-10-24T15:30:00.000Z", "episode": 19},
         {"name": "Scare Master", "time": "2015-10-31T15:30:00.000Z"},
-        {"name": "What About Discord", "time": "2015-11-07T15:30:00.000Z"},
-        {"name": "The Hooffields and McColts", "time": "2015-11-14T15:30:00.000Z"}
+        {"name": "What About Discord", "time": "2015-11-07T16:30:00.000Z"},
+        {"name": "The Hooffields and McColts", "time": "2015-11-14T16:30:00.000Z"}
     ]
 ];
 
