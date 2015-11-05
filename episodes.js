@@ -121,7 +121,10 @@ var episodes = [
         {"name": "Hearthbreakers", "time": "2015-10-24T15:30:00.000Z", "episode": 19},
         {"name": "Scare Master", "time": "2015-10-31T15:30:00.000Z"},
         {"name": "What About Discord", "time": "2015-11-07T16:30:00.000Z"},
-        {"name": "The Hooffields and McColts", "time": "2015-11-14T16:30:00.000Z"}
+        {"name": "The Hooffields and McColts", "time": "2015-11-14T16:30:00.000Z"},
+        {"name": "The Mane Attraction", "time": "2015-11-21T16:30:00.000Z"},
+        {"name": "The Cutie Re-Mark Part 1", "time": "2015-11-28T16:00:00.000Z"},
+        {"name": "The Cutie Re-Mark Part 2", "time": "2015-11-28T16:30:00.000Z"}
     ]
 ];
 
