@@ -125,6 +125,10 @@ var episodes = [
         {"name": "The Mane Attraction", "time": "2015-11-21T16:30:00.000Z"},
         {"name": "The Cutie Re-Mark Part 1", "time": "2015-11-28T16:00:00.000Z"},
         {"name": "The Cutie Re-Mark Part 2", "time": "2015-11-28T16:30:00.000Z"}
+    ],
+    [
+        {"name": "The Crystalling - Part 1", "time": "2016-03-26T15:00:00.000Z"},
+        {"name": "The Crystalling - Part 2", "time": "2016-03-26T15:30:00.000Z"}
     ]
 ];
 
