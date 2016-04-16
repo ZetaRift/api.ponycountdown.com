@@ -131,7 +131,8 @@ var episodes = [
         {"name": "The Crystalling - Part 2", "time": "2016-03-26T15:30:00.000Z"},
         {"name": "The Gift of the Maud Pie", "time": "2016-04-02T15:30:00.000Z"},
         {"name": "On Your Marks", "time": "2016-04-09T15:30:00.000Z"},
-        {"name": "Gauntlet of Fire", "time": "2016-04-16T15:30:00.000Z"}
+        {"name": "Gauntlet of Fire", "time": "2016-04-16T15:30:00.000Z"},
+        {"name": "No Second Prances", "time": "2016-04-30T15:30:00.000Z"}
     ]
 ];
 
