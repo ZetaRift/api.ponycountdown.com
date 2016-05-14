@@ -134,7 +134,9 @@ var episodes = [
         {"name": "Gauntlet of Fire", "time": "2016-04-16T15:30:00.000Z"},
         {"name": "No Second Prances", "time": "2016-04-30T15:30:00.000Z"},
         {"name": "Newbie Dash", "time": "2016-05-07T15:30:00.000Z"},
-        {"name": "A Hearth's Warming Tail", "time": "2016-05-14T15:30:00.000Z"}
+        {"name": "A Hearth's Warming Tail", "time": "2016-05-14T15:30:00.000Z"},
+        {"name": "Saddle Row & Rec", "time": "2016-05-21T15:30:00.000Z"},
+        {"name": "Applejack's \"Day\" Off", "time": "2016-05-28T15:30:00.000Z"}
     ]
 ];
 
