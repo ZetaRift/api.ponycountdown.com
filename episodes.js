@@ -137,6 +137,7 @@ var episodes = [
         {"name": "A Hearth's Warming Tail", "time": "2016-05-14T15:30:00.000Z"},
         {"name": "Saddle Row & Rec", "time": "2016-05-21T15:30:00.000Z"},
         {"name": "Applejack's \"Day\" Off", "time": "2016-05-28T15:30:00.000Z"},
+        {"name": "Flutter Brutter", "time": "2016-06-04T15:30:00.000Z"},
         {"name": "Spice Up Your Life", "time": "2016-06-11T15:30:00.000Z"}
     ]
 ];
