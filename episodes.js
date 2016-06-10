@@ -138,7 +138,8 @@ var episodes = [
         {"name": "Saddle Row & Rec", "time": "2016-05-21T15:30:00.000Z"},
         {"name": "Applejack's \"Day\" Off", "time": "2016-05-28T15:30:00.000Z"},
         {"name": "Flutter Brutter", "time": "2016-06-04T15:30:00.000Z"},
-        {"name": "Spice Up Your Life", "time": "2016-06-11T15:30:00.000Z"}
+        {"name": "Spice Up Your Life", "time": "2016-06-11T15:30:00.000Z"},
+        {"name": "Stranger Then Fan Fiction", "time": "2016-06-18T15:30:00.000Z"}
     ]
 ];
 
