@@ -144,7 +144,10 @@ var episodes = [
         {"name": "28 Pranks Later", "time": "2016-08-13T15:30:00.000Z"},
         {"name": "The Times Are a Changeling", "time": "2016-08-20T15:30:00.000Z"},
         {"name": "Dungeons And Discords", "time": "2016-08-27T15:30:00.000Z"},
-        {"name": "Buck Ball Season", "time": "2016-09-03T15:30:00.000Z"}
+        {"name": "Buck Ball Season", "time": "2016-09-03T15:30:00.000Z"},
+        {"name": "The Fault in our Cutie Marks", "time": "2016-09-10T15:30:00.000Z"},
+        {"name": "Viva Las Pegasus", "time": "2016-09-17T15:30:00.000Z"},
+        {"name": "Every Little Thing She Does", "time": "2016-09-24T15:30:00.000Z"}
     ]
 ];
 
