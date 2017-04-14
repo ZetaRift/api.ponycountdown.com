@@ -152,8 +152,14 @@ var episodes = [
         {"name": "Where the Apple Lies", "time": "2016-10-08T15:30:00.000Z"}
     ],
     [
-        {"name": "Unknown Title", "time": "2017-04-15T15:00:00.000Z"},
-        {"name": "Unknown Title", "time": "2017-04-15T15:30:00.000Z"}
+        {"name": "Celestial Advice", "time": "2017-04-15T15:30:00.000Z"},
+        {"name": "All Bottled Up", "time": "2017-04-15T16:00:00.000Z"},
+        {"name": "A Flurry of Emotions", "time": "2017-04-225T15:30:00.000Z"},
+        {"name": "Rock Solid Friendship", "time": "2017-04-295T15:30:00.000Z"},
+        {"name": "Fluttershy Leans In", "time": "2017-05-065T15:30:00.000Z"},
+        {"name": "Forever Filly", "time": "2017-05-135T15:30:00.000Z"},
+        {"name": "Parental Glideance", "time": "2017-05-205T15:30:00.000Z"},
+        {"name": "Hard to Say Anything", "time": "2017-05-275T15:30:00.000Z"}
     ]
 ];
 
