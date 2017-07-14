@@ -159,7 +159,11 @@ var episodes = [
         {"name": "Fluttershy Leans In", "time": "2017-05-06T15:30:00.000Z"},
         {"name": "Forever Filly", "time": "2017-05-13T15:30:00.000Z"},
         {"name": "Parental Glideance", "time": "2017-05-20T15:30:00.000Z"},
-        {"name": "Hard to Say Anything", "time": "2017-05-27T15:30:00.000Z"}
+        {"name": "Hard to Say Anything", "time": "2017-05-27T15:30:00.000Z"},
+        {"name": "Honest Apple", "time": "2017-06-03T15:30:00.000Z"},
+        {"name": "A Royal Problem", "time": "2017-06-10T15:30:00.000Z"},
+        {"name": "Not Asking For Trouble", "time": "2017-06-17T15:30:00.000Z"},
+        {"name": "Discordant Harmony", "time": "2017-08-05T15:30:00.000Z"}
     ]
 ];
 
