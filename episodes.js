@@ -163,7 +163,11 @@ var episodes = [
         {"name": "Honest Apple", "time": "2017-06-03T15:30:00.000Z"},
         {"name": "A Royal Problem", "time": "2017-06-10T15:30:00.000Z"},
         {"name": "Not Asking For Trouble", "time": "2017-06-17T15:30:00.000Z"},
-        {"name": "Discordant Harmony", "time": "2017-08-05T15:30:00.000Z"}
+        {"name": "Discordant Harmony", "time": "2017-08-05T15:30:00.000Z"},
+        {"name": "The Perfect Pear", "time": "2017-08-05T16:00:00.000Z"},
+        {"name": "Fame and Misfortune", "time": "2017-08-12T15:30:00.000Z"},
+        {"name": "Triple Threat", "time": "2017-08-19T15:30:00.000Z"},
+        {"name": "Campfire Tales", "time": "2017-08-26T15:30:00.000Z"}
     ]
 ];
 
