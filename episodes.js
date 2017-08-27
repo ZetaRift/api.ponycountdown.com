@@ -167,7 +167,11 @@ var episodes = [
         {"name": "The Perfect Pear", "time": "2017-08-05T16:00:00.000Z"},
         {"name": "Fame and Misfortune", "time": "2017-08-12T15:30:00.000Z"},
         {"name": "Triple Threat", "time": "2017-08-19T15:30:00.000Z"},
-        {"name": "Campfire Tales", "time": "2017-08-26T15:30:00.000Z"}
+        {"name": "To Change a Changeling", "time": "2017-09-02T15:30:00.000Z"},
+        {"name": "Daring Done", "time": "2017-09-09T15:30:00.000Z"},
+        {"name": "It Isn't the Mane Thing About You", "time": "2017-09-16T15:30:00.000Z"},
+        {"name": "A Health of Information", "time": "2017-09-23T15:30:00.000Z"},
+        {"name": "Marks and Recreation", "time": "2017-09-30T15:30:00.000Z"}
     ]
 ];
 
