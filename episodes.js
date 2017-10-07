@@ -171,7 +171,12 @@ var episodes = [
         {"name": "Daring Done", "time": "2017-09-09T15:30:00.000Z"},
         {"name": "It Isn't the Mane Thing About You", "time": "2017-09-16T15:30:00.000Z"},
         {"name": "A Health of Information", "time": "2017-09-23T15:30:00.000Z"},
-        {"name": "Marks and Recreation", "time": "2017-09-30T15:30:00.000Z"}
+        {"name": "Marks and Recreation", "time": "2017-09-30T15:30:00.000Z"},
+        {"name": "Once Upon a Zeppelin", "time": "2017-10-07T15:30:00.000Z"},
+        {"name": "Secrets and Pies", "time": "2017-10-14T15:30:00.000Z"},
+        {"name": "Uncommon Bond", "time": "2017-14-21T15:30:00.000Z"},
+        {"name": "Shadow Play (Part 1)", "time": "2017-10-28T15:00:00.000Z"},
+        {"name": "Shadow Play (Part 2)", "time": "2017-10-28T15:30:00.000Z"}
     ]
 ];
 
