@@ -177,6 +177,10 @@ var episodes = [
         {"name": "Uncommon Bond", "time": "2017-14-21T15:30:00.000Z"},
         {"name": "Shadow Play (Part 1)", "time": "2017-10-28T15:00:00.000Z"},
         {"name": "Shadow Play (Part 2)", "time": "2017-10-28T15:30:00.000Z"}
+    ],
+    [
+        {"name": "School Daze (Part 1)", "time": "2018-03-24T15:30:00.000Z"},
+        {"name": "School Daze (Part 2)", "time": "2018-03-24T16:00:00.000Z"},
     ]
 ];
 
