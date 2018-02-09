@@ -180,7 +180,7 @@ var episodes = [
     ],
     [
         {"name": "School Daze (Part 1)", "time": "2018-03-24T15:30:00.000Z"},
-        {"name": "School Daze (Part 2)", "time": "2018-03-24T16:00:00.000Z"},
+        {"name": "School Daze (Part 2)", "time": "2018-03-24T16:00:00.000Z"}
     ]
 ];
 
