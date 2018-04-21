@@ -180,7 +180,16 @@ var episodes = [
     ],
     [
         {"name": "School Daze (Part 1)", "time": "2018-03-24T15:30:00.000Z"},
-        {"name": "School Daze (Part 2)", "time": "2018-03-24T16:00:00.000Z"}
+        {"name": "School Daze (Part 2)", "time": "2018-03-24T16:00:00.000Z"},
+        {"name": "The Maud Couple", "time": "2018-03-31T15:30:00.000Z"},
+        {"name": "Fake It 'Til You Make It", "time": "2018-04-07T15:30:00.000Z"},
+        {"name": "Grannies Gone Wild", "time": "2018-04-14T15:30:00.000Z"},
+        {"name": "Surf and/or Turf", "time": "2018-04-21T15:30:00.000Z"},
+        {"name": "Horse Play", "time": "2018-04-28T15:30:00.000Z"},
+        {"name": "The Parent Map", "time": "2018-05-05T15:30:00.000Z"},
+        {"name": "Non-Compete Clause", "time": "2018-05-12T15:30:00.000Z"},
+        {"name": "The Break Up Break Down", "time": "2018-05-19T15:30:00.000Z"},
+        {"name": "Molt Down", "time": "2018-05-26T15:30:00.000Z"},
     ]
 ];
 
