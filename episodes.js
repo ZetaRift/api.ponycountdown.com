@@ -189,7 +189,7 @@ var episodes = [
         {"name": "The Parent Map", "time": "2018-05-05T15:30:00.000Z"},
         {"name": "Non-Compete Clause", "time": "2018-05-12T15:30:00.000Z"},
         {"name": "The Break Up Break Down", "time": "2018-05-19T15:30:00.000Z"},
-        {"name": "Molt Down", "time": "2018-05-26T15:30:00.000Z"},
+        {"name": "Molt Down", "time": "2018-05-26T15:30:00.000Z"}
     ]
 ];
 
